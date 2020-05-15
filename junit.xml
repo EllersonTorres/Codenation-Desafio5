@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="1" time="1.752">
+  <testsuite name="Contacts APP" errors="0" failures="1" skipped="0" timestamp="2020-05-15T13:30:10" time="1.254" tests="4">
+    <testcase classname="Contacts APP Should render Contact component" name="Contacts APP Should render Contact component" time="0.023">
+      <failure>TypeError: Cannot destructure property &apos;avatar&apos; of &apos;this.props.contact&apos; as it is undefined.
+    at Contact.render (C:\Users\Ellerson\codenation\react-13\src\components\Contact.jsx:6:7)
+    at finishClassComponent (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:17160:31)
+    at updateClassComponent (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:17110:24)
+    at beginWork (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:188:14)
+    at invokeEventListeners (C:\Users\Ellerson\codenation\react-13\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:193:27)
+    at HTMLUnknownElementImpl._dispatch (C:\Users\Ellerson\codenation\react-13\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:119:9)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Ellerson\codenation\react-13\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:82:17)
+    at HTMLUnknownElementImpl.dispatchEvent (C:\Users\Ellerson\codenation\react-13\node_modules\jsdom\lib\jsdom\living\nodes\HTMLElement-impl.js:30:27)
+    at HTMLUnknownElement.dispatchEvent (C:\Users\Ellerson\codenation\react-13\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:157:21)
+    at Object.invokeGuardedCallbackDev (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:237:16)
+    at invokeGuardedCallback (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:292:31)
+    at beginWork$1 (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:23203:7)
+    at performUnitOfWork (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:22157:12)
+    at workLoopSync (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:21188:7)
+    at updateContainer (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:24373:3)
+    at C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:24758:7
+    at unbatchedUpdates (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:24757:5)
+    at Object.render (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:24840:10)
+    at C:\Users\Ellerson\codenation\react-13\node_modules\@testing-library\react\dist\pure.js:86:25
+    at batchedUpdates$1 (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom.development.js:21856:12)
+    at act (C:\Users\Ellerson\codenation\react-13\node_modules\react-dom\cjs\react-dom-test-utils.development.js:929:14)
+    at render (C:\Users\Ellerson\codenation\react-13\node_modules\@testing-library\react\dist\pure.js:82:26)
+    at Object.&lt;anonymous&gt; (C:\Users\Ellerson\codenation\react-13\src\__tests__\submit.test.js:21:27)
+    at Object.asyncJestTest (C:\Users\Ellerson\codenation\react-13\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Ellerson\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Ellerson\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Ellerson\codenation\react-13\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname="Contacts APP Should render Contacts component" name="Contacts APP Should render Contacts component" time="0.018">
+    </testcase>
+    <testcase classname="Contacts APP Should render Filters component" name="Contacts APP Should render Filters component" time="0.006">
+    </testcase>
+    <testcase classname="Contacts APP Should render Topbar component" name="Contacts APP Should render Topbar component" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
